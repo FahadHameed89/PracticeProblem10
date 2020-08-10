@@ -21,7 +21,7 @@ namespace PracticeProblem10
             {
                 Console.WriteLine($"The game is a draw! The RNG value was {testValue} and Player 1 picked {userInput1}, while Player 2 picked {userInput2}!");
             }
-            if (player1Score < player2Score)
+            if (player1Score < player2Score)        // Thx @LGraham for checking my syntax :D
             {
                 Console.WriteLine($"Player 1 Wins! The RNG value was {testValue} and they picked {userInput1}!");
             }
