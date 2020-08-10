@@ -28,6 +28,7 @@ namespace PracticeProblem10
             if (player1Score > player2Score)
             {
                 Console.WriteLine($"Player 2 Wins! The RNG value was {testValue} and they picked {userInput2}!");
+                Console.ReadLine();
             }
         }
     }
